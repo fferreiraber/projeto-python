@@ -30,7 +30,7 @@ def identificar_ip_rede(num_convertido, bitcount):
     zeros = ""
     for i in range(quantidade):
         zeros = zeros + "0"
-    # soma = num_convertido + zeros
+    # soma = num_convertido + zeros #
     soma = num_convertido[:int(bitcount)] + zeros
     return soma
 
