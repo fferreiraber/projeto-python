@@ -1,8 +1,8 @@
 # ip = 172.17.135.233/25
 
-print('=' * 90)
+print('=' * 100)
 entrada = str(input('Digite o IP: '))
-print('=' * 90)
+print('=' * 100)
 address = entrada.split("/")
 ip = address[0]
 bitcount = address[1]
